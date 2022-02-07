@@ -1,0 +1,22 @@
+.header__nav{
+  width: 100%;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  border-top: solid 5px var(--main-color);
+}
+
+.social-icons{
+  display: flex;
+  gap: .5rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  height: 4rem;
+  color: var(--main-color);
+}
